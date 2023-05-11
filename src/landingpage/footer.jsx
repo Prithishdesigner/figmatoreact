@@ -1,7 +1,9 @@
 import React from 'react'
 import { Facebook,Instagram,Twitter,Linkedin,Finsmse } from '../images/Vector1'
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const navigate = useNavigate();
   return (
   <>
    <div id='font' >
@@ -73,9 +75,9 @@ const Footer = () => {
            
             <ul className='list-unstyled '>
               <li><i className="bx bx-chevron-right"></i> <a className='text-white' href="#">About FinMSME</a></li>
-              <li><i className="bx bx-chevron-right"></i> <a className='text-white' href="#">Our Partners</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a onClick={()=>navigate("/part")} className='text-white' href="#">Our Partners</a></li>
               <li><i className="bx bx-chevron-right"></i> <a className='text-white' href="#">Careers  </a></li>
-              <li><i className="bx bx-chevron-right"></i> <a className='text-white' href="#">Case Studies</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a onClick={()=>navigate("/cashstudy")} className='text-white' href="#">Case Studies</a></li>
               
             </ul>
           </div>
@@ -84,8 +86,8 @@ const Footer = () => {
             
             <ul  className='list-unstyled'>
               <li><i className="bx bx-chevron-right"></i> <a className='text-white' href="#">Press Center</a></li>
-              <li><i className="bx bx-chevron-right"></i> <a className='text-white' href="#">FAQ's</a></li>
-              <li><i className="bx bx-chevron-right"></i> <a className='text-white' href="#">Contact Us</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a onClick={()=>navigate("/faq")} className='text-white' href="#">FAQ's</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a onClick={()=>navigate("/contact")} className='text-white' href="#">Contact Us</a></li>
               <li><i className="bx bx-chevron-right"></i> <a className='text-white' href="#">Corporate Governance</a></li>
               <li><i className="bx bx-chevron-right"></i> <a className='text-white' href="#">Engineering & Technology</a></li>
             </ul>

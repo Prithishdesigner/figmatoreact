@@ -18,12 +18,12 @@ const Partnersbanner = () => {
         <div className="col-6 text-white ">
                       <h4 className='fw-semibold'>FOR INDUSTRY</h4>
                       <p>We partner with online marketplaces, software companies and data providers to leverage business data for SMB lending</p>
-                      <button type="button" class="btn btn-success">KNOW MORE</button>
+                      {/* <button type="button" class="btn btn-success">KNOW MORE</button> */}
 
         </div>
             <div className="col-6 text-white"><h4 className='fw-semibold'>FOR LENDERS</h4>
                       <p>We provide businesses with reliable data through supply chain partnerships which brings access to borrowers as well as transactional data aid</p>
-                      <button type="button" class="btn btn-success">KNOW MORE</button>
+                      {/* <button type="button" class="btn btn-success">KNOW MORE</button> */}
              </div>
      </div>
 

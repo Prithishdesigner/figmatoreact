@@ -76,6 +76,7 @@ function App() {
           <Route path="/cashstudy" element={<Navebarcashstudy />} />
           <Route path="/contact" element={<Navebarcontactus />} />
           <Route path="/faq" element={<Navebarfreqs />} />
+      
         
          
           </Routes>

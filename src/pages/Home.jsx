@@ -11,6 +11,7 @@ import Faq from '../landingpage/faq'
 import Enableloan1 from '../landingpage/enableloan1'
 import Footer from '../landingpage/footer'
 
+
 const Home = () => {
   return (
     <>

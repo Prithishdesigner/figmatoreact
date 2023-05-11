@@ -47,7 +47,7 @@ const Navbar = () => {
                 <a className="nav-link" onClick={()=>navigate("/cashstudy")}  href="#">Case Studies</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="#">Blog</a>
+                <a className="nav-link"  href="https://medium.com/@finmsme1">Blog</a>
                 </li>
                 <li className="nav-item">
                 <a className="nav-link" onClick={()=>navigate("/contact")} href="#">Contact</a>
@@ -55,7 +55,7 @@ const Navbar = () => {
             </ul>
             </div>
             <button type="button" onClick={()=>navigate("/")} className="btn btn-success me-4 fw-bold">Back</button>
-            <button type="button" className="btn btn-success me-4 fw-bold">Apply Now</button>
+            <button type="button" onClick={()=>navigate("/contact")} className="btn btn-success me-4 fw-bold">Apply Now</button>
             <button type="button" className="btn btn-outline-success text-white fw-bold">7827122122</button>
         </div>
         </nav>

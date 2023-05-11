@@ -73,7 +73,7 @@ function Contactuscen() {
     // const formData = {validated};
 
     // fetch('https://backend-odxf-ny9zpnk4u-prithishdesigner.vercel.app/details', {
-    fetch('http://localhost:3020/details', {
+    fetch('http://localhost:3022/details', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData)
@@ -98,6 +98,8 @@ function Contactuscen() {
       notify("Failed to add Details")
 
     });
+
+    
       
     } else {
       console.log('field missing');
