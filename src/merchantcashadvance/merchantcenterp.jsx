@@ -18,7 +18,7 @@ const Merchantcenterp = () => {
                         <li>Minimum monthly transaction of INR 50,000</li>
                         <li>Minimum 1 years of operational history</li>
                         <li>Promoter age 22 and above</li>
-                        <li>1 years ITR for loans above 10 lacs</li>
+                        <li>1 years ITR</li>
                    
                     </ul>
               

@@ -11,8 +11,8 @@ const Invoicecard = () => {
         {
           money:<Cash1/>,
           // money:`data:image/svg+xml;utf8,${encodeURIComponent(<Vector1/>)}`,
-          title: 'Upto 1 Crores',
-          action: 'Get an invoice discounting line up to INR 1 cr.',
+          title: 'Upto 5 Crores',
+          action: 'Get an invoice discounting line up to INR 5 cr.',
         
         
         },

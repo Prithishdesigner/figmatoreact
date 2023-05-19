@@ -26,7 +26,7 @@ next:'https://medium.com/@finmsme1/how-to-choose-the-right-loan-for-your-busines
     busine:immge2,
     newgovt:'The Unexpected Visitor',
     date:'Mar 25,2023 | BY FinMSME',
-    des:'When it comes to borrowing money from financial institutions, businesses, and individuals have a variety of options to choose from. Two of the most common types of loans are demand loans and term loans. While both serve the same purpose of providing funds to borrowers, there are significant […]',
+    des:'When it comes to borrowing money from financial institutions, businesses, and individuals have a variety of options to choose from. Two of the most common types of loans are demand loans and term loans. While both serve the same purpose of providing funds to borrowers, there are significant differences between the two. In this blog […]',
     next:'https://medium.com/@finmsme1/the-unexpected-visitor-1ac820955e52'
     
     
@@ -52,35 +52,39 @@ next:'https://medium.com/@finmsme1/how-to-choose-the-right-loan-for-your-busines
 
   return (
 <>
-<div id='font'>
-<div className='container d-flex'>
-    <div className='row'>
+<h1 className='fw-bold text-center ' style={{marginTop:'150px'}}>Blog & Stories</h1>
+<div id='font' className='blue-stoo container d-flex'>
+    
 
-    <h1 className='fw-bold text-center mt-5'>Blog & Stories</h1>
+   
 {blostor.map((jutire,idury)=>{
 
-  
+
 
     return(
-    
-    <div className="p-3 text-white   container" style={{width: '20rem',backgroundColor:'#5920C5',borderRadius:'30px',marginTop:'100px',marginBottom:'100px'}} key={(idury)}>
-            <img src={jutire.busine} className="card-img-top mt-2 mb-4" style={{borderRadius:'30px'}} alt="..."/>
-            <div className="card-body ">
-              <h5 className="card-title mb-2">{jutire.newgovt}</h5>
-              <p style={{color:'#FDB827'}}>{jutire.date}</p>
-              <p className="card-text shadow p-3">{jutire.des}</p>
-              <div className='text-center m-2'>
-              <a href={jutire.next} className="btn btn-success">Read More</a>
-              </div>
-            </div>
+      <div className='row'>
+            <div className="col  text-white"  key={(idury)}>
+                  <div className='blog-story'>
+                    <img src={jutire.busine} className="card-img-top"  alt="..."/>
 
+                      <h5 className="p-3">{jutire.newgovt}</h5>
+                      <p style={{color:'#FDB827'}}>{jutire.date}</p>
+                      <p className="p-2 shadow">{jutire.des}</p>
+                    
+                          <a href={jutire.next} className="btn btn-success m-2 ">Read More</a>
+        
+                          
+                    </div>
+              </div>
+                  
+           
     </div>
 
 );
 }) }
 </div>
-</div>
-</div>
+
+
 </>
   );
 }

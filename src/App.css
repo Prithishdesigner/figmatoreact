@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,11 +35,285 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
-
-#font{
+#font {
   font-family: nunito;
 }
 
 
+
+
+
+
+
+
+
+@media (max-width: 1399.98px) {
+  .loan-card {
+    column-gap: 20px;
+  }
+
+  .loan-card-items {
+    width: 500px;
+  }
+
+
+
+  .business-thrive {
+    column-gap: 20px;
+    justify-content: center;
+  }
+  .bus-thir {
+    width: 200px;
+  }
+
+
+
+  .siting-img {
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .siting-text {
+    margin-top: 120px;
+  }
+
+
+
+  .circle-travel {
+    border-radius: 150px;
+    background-color: #5920c5;
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    margin: 40px;
+  }
+  .circle-dis {
+    text-align: center;
+    width: 230px;
+    margin-left: 30px;
+  }
+
+
+  .teva-fil {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+
+
+  .blue-stoo {
+    justify-content: space-evenly;
+  }
+  .blog-story {
+    width: 280px;
+    padding: 10px;
+    background-color: #5920c5;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+
+  .card-img-top {
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 991.98px) {
+  .loan-card {
+    column-gap: 20px;
+    justify-content: center;
+  }
+
+  .loan-card-items {
+    width: 160px;
+  }
+
+
+
+  .business-thrive {
+    column-gap: 20px;
+    justify-content: center;
+  }
+  .bus-thir {
+    width: 160px;
+  }
+
+
+
+  .siting-img {
+    width: 400px;
+    height: 300px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .siting-text {
+    margin-top: 120px;
+  }
+
+
+
+  .circle-travel {
+    border-radius: 100px;
+    background-color: #5920c5;
+  }
+  .circle-dis {
+    justify-content: center;
+  }
+
+
+
+  .blue-stoo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .blog-story {
+    padding: 10px;
+    background-color: #5920c5;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 767.98px) {
+  .loan-card {
+    column-gap: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .loan-card-items {
+    width: 200px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+
+
+  .business-thrive {
+    column-gap: 20px;
+    margin-bottom: -150px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .bus-thir {
+    width: 160px;
+    display: flex;
+    margin-bottom: 110px;
+  }
+
+
+
+  .siting-text {
+    margin-top: -100px;
+    margin-bottom: 90px;
+  }
+
+  .siting-img {
+    align-items: center;
+    margin-top: 50px;
+  }
+
+
+
+  .total {
+    flex-direction: column-reverse;
+  }
+
+
+
+
+  .blue-stoo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .blog-story {
+    padding: 10px;
+    background-color: #5920c5;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+  .loan-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+  }
+  .loan-card-items {
+    width: 200px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+
+
+  .business-thrive {
+    display: flex;
+    margin-bottom: -150px;
+    justify-content: center;
+  }
+  .bus-thir {
+    width: 200px;
+    flex-wrap: wrap;
+
+    margin-bottom: 120px;
+  }
+  .busni-thiri {
+    font-size: 18px;
+  }
+
+
+
+  .tight {
+    order: 1;
+  }
+
+  .siting-text {
+    order: 2;
+  }
+
+
+  
+  .blue-stoo {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

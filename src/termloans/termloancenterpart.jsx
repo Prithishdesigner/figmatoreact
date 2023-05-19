@@ -49,7 +49,7 @@ const Termloancenterpart = () => {
             aria-labelledby="nav-TermLoan-tab">
             <h5>What Is A Term Loan?</h5>
          
-            <p>A term loan is a short term or long term loan that is given for a stipulated period. Financial institutions provide these loans on a condition of repayment in fixed instalments (EMI) along with interest. They are offered at both floating and fixed rates of interest. The repayment tenure of term loans ranges between 12 months to 60 months. Personal loans, business loans, auto loans, education loans, gold loans, and home loans are some examples of term loans.</p>
+            <p>A term loan is a short term or long term loan that is given for a stipulated period. Financial institutions provide these loans on a condition of repayment in fixed instalments along with interest. They are offered at both floating and fixed rates of interest. The repayment tenure of term loans ranges between 12 months to 60 months. Personal loans, business loans, auto loans, education loans, gold loans, and home loans are some examples of term loans.</p>
 
 
             <table className="table mb-5">
@@ -64,11 +64,11 @@ const Termloancenterpart = () => {
                 </tr>
                 <tr>
                   <th scope="row">Loan Type</th>
-                  <td>Collateral Free / Unsecured</td>
+                  <td>Collateral / Unsecured</td>
                 </tr>
                 <tr>
                   <th scope="row">Maximum Amount</th>
-                  <td colspan="2">Up to 1 Cr</td>
+                  <td colspan="2">Up to 15 Cr</td>
                 </tr>
                 <tr>
                   <th scope="row">Who can avail</th>
@@ -76,7 +76,7 @@ const Termloancenterpart = () => {
                 </tr>
                 <tr>
                   <th scope="row">Interest Rate</th>
-                  <td colspan="2">Starting at 1.5% per month</td>
+                  <td colspan="2">1.5% per month</td>
                 </tr>
                 <tr>
                   <th scope="row">Repayment Tenure</th>
@@ -136,7 +136,7 @@ const Termloancenterpart = () => {
                   </tr>
                   <tr>
 
-                      <td>1 years ITR for 10 lacs</td>
+                      <td>1 years ITR</td>
                       <td>KYC documents of the applicant and the organisation</td>
 
                   </tr>
@@ -275,9 +275,9 @@ const Termloancenterpart = () => {
 <h5>Term Loan EMI Calculator</h5>
 <p>Refer to the below example to understand the easy working of this loan</p>
 <p>A businessman wants an amount of Rs.30 lakh to buy machinery to expand his business activities. So he applied for the loan, along with the necessary documents. However, after assessment, the bank stated that his eligibility for a loan is up to Rs.20 lakhs only.</p>
-<p>The institution accordingly offers him the terms and conditions of the loan, alongside the interest rate applicable. The tenor is chosen for 6 years. The reimbursement timetable would subsequently be –</p>
-<p>Number of EMIs = 6x12 months = 72.</p>
-<p>The borrower should reimburse the full loan amount with the last settlement in 72 EMIs. The EMI amount relies upon the term loan interest rate, along with the amortization plan of the bank. On the off chance that money is accessible in some lump sum amount, the borrower may likewise settle on the loan amount's dispossession or part-prepayment any time before ending the loan's tenor. The borrower can calculate the EMI using term loan emi calculator.</p>
+<p>The institution accordingly offers him the terms and conditions of the loan, alongside the interest rate applicable. The tenor is chosen for 7 years. The reimbursement timetable would subsequently be –</p>
+<p>Number of EMIs = 7x12 months = 84.</p>
+<p>The borrower should reimburse the full loan amount with the last settlement in 84 EMIs. The EMI amount relies upon the term loan interest rate, along with the amortization plan of the bank. On the off chance that money is accessible in some lump sum amount, the borrower may likewise settle on the loan amount's dispossession or part-prepayment any time before ending the loan's tenor. The borrower can calculate the EMI using term loan emi calculator.</p>
 </div>
 
 

@@ -6,9 +6,9 @@ const Navbar = () => {
   const navigate = useNavigate();
   return (
     <div id='font'>
-      <nav className="navbar navbar-expand-lg fw-bold" data-bs-theme="dark" style={{backgroundColor: '#5920C5'}}>
+      <nav className="navbar navbar-expand-lg  fw-bold" data-bs-theme="dark" style={{backgroundColor: '#5920C5'}}>
         <div className="container p-4">
-            <a className="navbar-brand" href="#"><Finsmse/></a>
+            <a className="navbar-brand" onClick={()=>navigate("/")} href="#"><Finsmse/></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
@@ -55,7 +55,7 @@ const Navbar = () => {
             </ul>
             </div>
             <button type="button" onClick={()=>navigate("/")} className="btn btn-success me-4 fw-bold">Back</button>
-            <button type="button" onClick={()=>navigate("/contact")} className="btn btn-success me-4 fw-bold">Apply Now</button>
+            <button type="button" onClick={()=>navigate("/contact")} className="btn btn-success me-4 fw-bold d-none-md">Apply Now</button>
             <button type="button" className="btn btn-outline-success text-white fw-bold">7827122122</button>
         </div>
         </nav>

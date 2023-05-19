@@ -28,28 +28,28 @@ const industry=[
 },
 
 
-]
 
 
-const growth=[
+
+
 
   {
-    line2:<Retail/>,
-    title2:'Retail',
-    description2:'Got an appetile for growth? We serve loans to match',
+    line1:<Retail/>,
+    title1:'Retail',
+    description1:'Got an appetile for growth? We serve loans to match',
     routelink1:'/retail'
  },
  {
-   line2:<Restaurant/>,
-   title2:'Restaurants',
-   description2:'Get a loan to enhance your store and improve your sales',
+   line1:<Restaurant/>,
+   title1:'Restaurants',
+   description1:'Get a loan to enhance your store and improve your sales',
    routelink1:'/resta'
  },
  
  {
-   line2:<Startup/>,
-   title2:'Startup',
-   description2:'Revenue-based financing for Start-ups without equity dilution',
+   line1:<Startup/>,
+   title1:'Startup',
+   description1:'Revenue-based financing for Start-ups without equity dilution',
    routelink1:'/start'
  },
  
@@ -65,38 +65,43 @@ const growth=[
   return (
     
     <>
-    <div id='font'>
+   
     
 
-    <h1 className=' text-center fw-bold' style={{marginTop:'150px'}}>FIND YOUR INDUSTRY. FUND YOUR GROWTH.</h1>
+    <h1 id='font' className=' text-center fw-bold' style={{marginTop:'150px'}}>FIND YOUR INDUSTRY. FUND YOUR GROWTH.</h1>
 
-<div className=' container ms-5 mt-5 row  '>
+<div id='font' className='  teva-fil  container '>
+
       
     {industry.map((diamond,ferit)=>{
       
 
       return (
-      <div   className='col '   key={(ferit)}>
+      <div   className='row  '   key={(ferit)}>
        
-            
+       <div className='col   '>
         
-                  <div onClick={()=>navigate(diamond.routelink1)} className='shadow-lg' style={{borderRadius:'100px',width: '10rem',height:'10rem',padding:'30px',backgroundColor:'#5920C5'}}>
-                      <p className='text-center' >{diamond.line1}</p>
+                  <div onClick={()=>navigate(diamond.routelink1)} className='shadow-lg circle-travel ' >
+                      <p className='text-center icon' >{diamond.line1}</p>
                       <p className="card-text fw-bold text-center"  style={{color:'#FDB827'}} >{diamond.title1}</p>
-                       
+                     
                   </div>   
-                  <div className='mt-4'> {diamond.description1} </div>
-          
+                  <p className='circle-dis'> {diamond.description1} </p>
+                  {/* style={{borderRadius:'100px',width: '10rem',height:'10rem',padding:'30px',backgroundColor:'#5920C5'}} */}
+      
+      </div>
       </div>
 
     );
     
     
        } ) }
+       
 </div>
 
 
-<div className=' container ms-5 mt-5 row  '>
+
+{/* <div className=' container ms-5 mt-5 row  '>
 {growth.map((silver,fgirt)=>{
 
 return (
@@ -117,8 +122,8 @@ return (
 
 
  } ) }
-      </div>
-      </div>
+      </div> */}
+     
     </>
     
   );

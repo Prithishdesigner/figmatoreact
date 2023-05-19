@@ -61,21 +61,24 @@ const loantype = [
 
 
   return (
+   
+
     <div id='font'>
-    <div className='container grid text-center d-flex justify-content-between' style={{marginTop:'-70px'}}>
+    <div className='container d-flex loan-card text-center ' style={{marginTop:'-70px'}}>
    {loantype.map((detail,index)=>{
 
     return(
+      
     
-        <div  className="card d-flex col-3 shadow p-3 border-0" style={{width: '16rem', borderRadius:'30px'}} key={(index)}>
+        <div  className="card loan-card-items   shadow  p-3 border-0 " style={{ borderRadius:'30px'}}  key={(index)}>
          
-            <div className="card-body">
-            {/* <img src={detail.money}  /> */}
-            <div className=''>{detail.money}</div>
-            <p className="card-text fw-semibold">{detail.title}</p>
+         
+           
+            <p>{detail.money}</p>
+            <p className="fw-semibold">{detail.title}</p>
           
             <a href="#" onClick={()=>navigate(detail.routeLink)} className="btn btn-dark fw-semibold" style={{ borderRadius:'30px'}}>{detail.action}</a>
-            </div>
+           
          
         </div>
         );
@@ -83,8 +86,21 @@ const loantype = [
  
 
  </div>
+
+
+
+
  </div>
-  );
-}
+
+
+  )
+    }
 
 export default Card
+
+
+
+
+
+
+

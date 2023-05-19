@@ -133,7 +133,7 @@ const Aboutinvoice = () => {
                         <li>Invoice discounting is used to maintain the balance between expenses and cash inflows daily
                         </li>
                         <li>This facility can be used to pay-off small business loans, used for equipment financing,
-                            collateral-free loans, etc.</li>
+                            collateral loans, etc.</li>
                         <li>With bill discounting, businesses can understand their cash flow in a better manner as the
                             cash which is locked-up due to unpaid bill is quickly released thereby giving companies a
                             hold on the cash flow of their business.</li>
@@ -158,7 +158,7 @@ const Aboutinvoice = () => {
                         Discounting a popular business loan facility without collateral security from FinMSME offers the
                         following benefits to businesses:
                     <ul>
-                        <li>Collateral Free</li>
+                        <li>Collateral</li>
                         <li>Quick Disbursal</li>
                         <li>Easy and Flexible Repayment Facility</li>
                         <li>Minimum Paperwork and Eligibility Criteria</li>

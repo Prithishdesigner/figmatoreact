@@ -9,8 +9,8 @@ const Lineofcreditcard = () => {
         {
           money:<Cash1/>,
           // money:`data:image/svg+xml;utf8,${encodeURIComponent(<Vector1/>)}`,
-          title: 'Upto 1 Crores',
-          action: 'Get loan upto 1 Crores depending upon the need',
+          title: 'Upto 5 Crores',
+          action: 'Get loan upto 5 Crores depending upon the need',
         
         
         

@@ -9,7 +9,7 @@ const Termloancard = () => {
     {
       money:<Cash1/>,
       // money:`data:image/svg+xml;utf8,${encodeURIComponent(<Vector1/>)}`,
-      title: 'Upto 1 Crores',
+      title: 'Upto 15 Crores',
       action: 'Get loan upto 1 Crores depending upon the need',
     
     
@@ -18,7 +18,7 @@ const Termloancard = () => {
     
     {
         money:<Cash2/>,
-        title: '1.5% Per Month',
+        title: 'Upto 1.5% Per Month',
         action: 'Get amazingly low interest rate starting from 1.5% per month',
       
       
@@ -36,8 +36,8 @@ const Termloancard = () => {
     
       {
         money:<Cash4/>,
-        title: '36 Months',
-        action: 'Get a loan with a tenure of upto 36 months',
+        title: '84 Months',
+        action: 'Get a loan with a tenure of upto 84 months',
       
       
       },

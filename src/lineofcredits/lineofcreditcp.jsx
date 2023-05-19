@@ -15,7 +15,7 @@ const Lineofcreditcp = () => {
         <ul className='fw-semibold'>
             <li>KYC documents of the entity & promoters</li>
             <li>Bank statement for the last 6 months</li>
-            <li>1 years ITR for 10 lacs</li>
+            <li>1 years ITR </li>
         </ul>
         
         </div>

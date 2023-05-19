@@ -32,7 +32,7 @@ const Footer = () => {
       <div className='container'>
       <div className='row'>
     <div className=' mt-5 col'>
-            <a className="navbar-brand mb-3" href="#"><Finsmse/></a>
+            <a className="navbar-brand  mb-3" onClick={()=>navigate("/")} href="#"><Finsmse/></a>
             <p className='mt-3'>Most small businesses struggle to get a timely loan to grow. At FinMSME, we are committed to changing it. We are a technology platform creating easy loan origination, and leverage our segment understanding to create risk models. This brings multiple partners and lenders to fill the credit gap, helping small businesses access unsecured business loans, through a quick and simple process. We have tailored loans for Travel, Hotel, e-Commerce, Restaurant, Trading and Retail businesses.</p>
     </div>
 
