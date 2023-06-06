@@ -13,25 +13,25 @@ const Enableloan = () => {
     <div id='font' >
 
             <h2 className='fw-bold text-center ' style={{marginTop:'150px',marginBottom:'100px'}}>Enabling Loans through our Financing Partners</h2>
-            <div className='container text-center mb-5 shadow p-3 mb-5 bg-body-tertiary rounded' >
+            <div className='container text-center shadow p-3  bg-body-tertiary rounded' >
               
                 <div className='row'>
-                  <div className='col'>
-                    <img src={Aditya} alt="" className='m-3' style={{height:'100px'}}/>
-                    <img src={Incred} alt="" className='m-3' style={{height:'120px',width:'200px'}} />
-                    <img src={Riviera} alt="" className='m-3'  style={{height:'40px',width:'120px'}}/>
-                    <img src={Finance} alt="" className='m-3' style={{height:'200px',width:'250px'}}/>
-                    </div>
-                    </div>
-              <div className=' col '>
+                      <div className='col'>
+                        <img src={Aditya} alt="" className='m-3' style={{height:'100px'}}/>
+                        <img src={Incred} alt="" className='m-3' style={{height:'120px'}} />
+                        <img src={Riviera} alt="" className='m-3'  style={{height:'40px'}}/>
+                        <img src={Finance} alt="" className='m-3' style={{height:'200px'}}/>
+                      </div>
                     
-                    <img src={Ugro} alt="" className='m-4' style={{height:'80px',width:'150px'}}/>
-                    <img src={Idfc} alt="" className='m-4' style={{height:'70px',width:'150px'}}/>
-                    <img src={Iifl} alt="" className='m-4' style={{height:'70px',width:'150px'}}/>
-                    
+                      <div className=' col '>
+                          
+                          <img src={Ugro} alt="" className='m-4' style={{height:'80px'}}/>
+                          <img src={Iifl} alt="" className='m-4' style={{height:'70px'}}/>
+                          <img src={Idfc} alt="" className='m-4' style={{height:'70px'}}/>
+                          
 
+                      </div>
                 </div>
-           
            </div>
 
     </div>

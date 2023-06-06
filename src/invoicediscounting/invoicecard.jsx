@@ -43,12 +43,12 @@ const Invoicecard = () => {
     
   return (
     <div id='font'>
-    <div className='container grid text-center d-flex justify-content-between' style={{marginTop:'-70px'}}>
+    <div className='container d-flex loan-card text-center ' style={{marginTop:'-70px'}}>
    {loantype.map((detail,index)=>{
 
     return(
     
-        <div className="card d-flex col-3 shadow  border-0" style={{width: '20rem', borderRadius:'30px'}} key={(index)}>
+        <div className="card loan-card-items   shadow  p-3 border-0" style={{borderRadius:'30px'}} key={(index)}>
          
             <div className="card-body">
             {/* <img src={detail.money}  /> */}

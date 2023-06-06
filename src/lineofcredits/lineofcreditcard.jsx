@@ -60,13 +60,13 @@ const Lineofcreditcard = () => {
         ]
         return (
             <div id='font'>
-                <div class="container text-center">
-            <div className='row d-flex ms-1' style={{marginTop:'-70px'}}>
-           {loantype.map((detail,index)=>{
+                
+                      <div className='container d-flex loan-card text-center' style={{marginTop:'-70px'}}>
+                        {loantype.map((detail,index)=>{
         
             return(
             
-                <div  className="card d-flex ms-4  shadow p-2 border-0" style={{width: '12rem', borderRadius:'30px'}} key={(index)}>
+                <div  className="card loan-card-items   shadow  p-3 border-0" style={{borderRadius:'30px'}} key={(index)}>
                  
                     <div className="card-body ">
                     {/* <img src={detail.money}  /> */}
@@ -80,8 +80,8 @@ const Lineofcreditcard = () => {
               })}
          
         
-         </div>
-         </div>
+                      </div>
+             
          </div>
           );
         }

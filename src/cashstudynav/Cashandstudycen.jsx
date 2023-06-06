@@ -121,7 +121,7 @@ const Cashandstudycen = () => {
 
   return (
     <>
-    <div id='font'>
+    <div id='font' className=''>
     
 
     <h1 className=' text-center fw-bold mb-5' style={{marginTop:'120px'}}>FIND YOUR INDUSTRY. FUND YOUR GROWTH.</h1>
@@ -172,21 +172,21 @@ const Cashandstudycen = () => {
       <div   className='col '   key={(ferit)}>
        
             
-       <div className="card mb-3" style={{maxWidth: '800px'}}>
-  <div className="row g-0">
-    <div className="col-md-4">
-      <img src={silver.line2} className="img-fluid rounded-start" style={{height:'300px'}} alt="..."/>
-    </div>
-    <div className="col-md-8">
-      <div className="card-body">
-        <h5 className="card-title">{silver.title2}</h5>
-        <p className="card-text">{silver.description2}</p>
-        <p class="card-text"><small className="text-body-secondary">{silver.updatetime2}</small></p>
-        <a href={silver.action} className="btn btn-success">Read More</a>
-      </div>
-    </div>
-  </div>
-</div>
+                <div className="card mb-3" style={{maxWidth: '800px'}}>
+            <div className="row g-0">
+              <div className="col-md-4">
+                <img src={silver.line2} className="img-fluid rounded-start" style={{height:'300px'}} alt="..."/>
+              </div>
+              <div className="col-md-8">
+                <div className="card-body">
+                  <h5 className="card-title">{silver.title2}</h5>
+                  <p className="card-text">{silver.description2}</p>
+                  <p class="card-text"><small className="text-body-secondary">{silver.updatetime2}</small></p>
+                  <a href={silver.action} className="btn btn-success">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
    
                   
           

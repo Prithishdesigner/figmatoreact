@@ -114,8 +114,8 @@ function Contactuscen() {
 
   return (
     <>
-    <div id='font'>
-    <div className='container mb-5 mt-5'>
+   
+    <div id='font' className='container form-card mb-5 mt-5'>
        <ToastContainer />
        <div className='row'>
        
@@ -123,9 +123,10 @@ function Contactuscen() {
     {/* <div class="col-lg-6 order-1 order-lg-2 mt-5" data-aos="zoom-in" data-aos-delay="150">
             <img src={Image} class="img-fluid" alt=""/>
           </div> */}
-    <Form noValidate validated={validated} onSubmit={handleSubmit} className="col annual-form  ">
+          <div  className="col  ">
+    <Form noValidate validated={validated} onSubmit={handleSubmit} className=' annual-form' >
       
-    <div className="annual-turnover shadow  text-emphasis-info  p-5" >
+    <div className="annual-turnover shadow  p-5" >
       <Form.Group as={Col} controlId="formGridState" className="mb-3">
                 <Form.Label class="form-label fw-semibold" style={{fontSize: '15px'}}>Annual Turnover</Form.Label>
                 <Form.Select 
@@ -200,48 +201,51 @@ function Contactuscen() {
 
       </div>
     </Form>
-    
-    
-    
-    <div className='col text-white p-4' style={{backgroundColor:'#5920C5'}}>
+    </div>
+    </div>
+    </div>
+   
+    <div className='container mb-5'>
+    <div className='row'>
+          <div className='col text-white p-4' style={{backgroundColor:'#5920C5'}}>
+              
+              <h3>Contact Information</h3>
+              <div >
+                  <h5>Call Us</h5>
+                  <h5 className='text-warning'>9696555444</h5>
+                  <p>Timings:10.00 a.m. to 7.00 p.m.
+                      (Monday to Friday excluding public holidays)
+                      Please keep your application Id/Loan Id or Registered Mobile Number handy for quick response.
+                  </p>
+              </div>
+              <div >
+                  <h5 >Email</h5>
+                  <h5 className='text-warning'>cs@FinMSME.com</h5>
+                  <p>(To register a query, request or complaint related to loans facilitated by FinMSME Technologies, please email on the above address.)
+                  </p>
+              </div>
+                <div>
+                  <p>Please include following information while writing to us</p>
+                  <ol>
+                      <li>Mail should be from your registered email address</li>
+                      <li>Lender’s Name</li>
+                      <li>Query type and details</li>
+                  </ol>
+
+
+
+
+                </div>
         
-        <h3>Contact Information</h3>
-        <div >
-            <h5>Call Us</h5>
-            <h5 className='text-warning'>9696555444</h5>
-            <p>Timings:10.00 a.m. to 7.00 p.m.
-                (Monday to Friday excluding public holidays)
-                Please keep your application Id/Loan Id or Registered Mobile Number handy for quick response.
-            </p>
-        </div>
-        <div >
-            <h5 >Email</h5>
-            <h5 className='text-warning'>cs@FinMSME.com</h5>
-            <p>(To register a query, request or complaint related to loans facilitated by FinMSME Technologies, please email on the above address.)
-            </p>
-        </div>
-          <div>
-            <p>Please include following information while writing to us</p>
-            <ol>
-                <li>Mail should be from your registered email address</li>
-                <li>Lender’s Name</li>
-                <li>Query type and details</li>
-            </ol>
-
-
-
-
-          </div>
-        
+    </div> 
     </div>
     
     
-    </div>
     
 
 
     </div>
-    </div>
+
     </>
   );
 }

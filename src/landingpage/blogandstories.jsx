@@ -52,6 +52,7 @@ next:'https://medium.com/@finmsme1/how-to-choose-the-right-loan-for-your-busines
 
   return (
 <>
+<div id='font'>
 <h1 className='fw-bold text-center ' style={{marginTop:'150px'}}>Blog & Stories</h1>
 <div id='font' className='blue-stoo container d-flex'>
     
@@ -83,7 +84,7 @@ next:'https://medium.com/@finmsme1/how-to-choose-the-right-loan-for-your-busines
 );
 }) }
 </div>
-
+</div>
 
 </>
   );

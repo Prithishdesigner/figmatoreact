@@ -1,5 +1,6 @@
 import React from 'react'
-import { Poc1,Poc2 } from '../images/Vector1';
+import  Poc1 from '../images/newfolder/Group 29.png';
+import Poc2  from '../images/newfolder/Group 30.png';
 
 const Restaurantcen2 = () => {
   return (
@@ -7,8 +8,10 @@ const Restaurantcen2 = () => {
     <div id='font'>
  
    
-   <div  className='d-flex container'>
-              <div className='container' style={{marginTop:'120px',marginLeft:'100px'}}>
+   <div  className='container'>
+   <div className="row total">
+          <div className='col ' >
+              <div className='siting-text' >
                     <h3 className='fw-bold'>Restaurant Loan Eligibility</h3>
                     <ul className='fw-semibold lh-lg'>
                        <li>Minimum operational history of 1 years</li>
@@ -17,28 +20,39 @@ const Restaurantcen2 = () => {
                        <li>Anchor monthly payout of 15k</li>
                    
                     </ul>
-              
+                    </div>
               </div>
-            <div style={{marginTop:'40px'}}><Poc1 /></div>
+              <div  className='col  '>
+                              <img src={Poc1} alt="" className='siting-img  ' />
+                        </div>
        
+        
+        </div>
         </div>
 
 
-
-        <div  className='d-flex container mb-5 mt-5'>
-        <div className='ms-3' ><Poc2 /></div>
-              <div className='container' style={{marginTop:'120px',marginLeft:'100px'}}>
-                    <h3 className='fw-bold'>Restaurant Loan Required Documents</h3>
-                    <ul className='fw-semibold lh-lg'>
-                      <li>KYC documents of the entity & promoters</li>
-                      <li>Bank statement for the last 6 months</li>
-                      <li>1 years ITR for 10 lacs</li>
-                   
-                    </ul>
-              
+        <div  className=' container '>
+             <div className="row total2">
+      
+                        <div  className='col  '>
+                              <img src={Poc2} alt="" className='siting-img2  ' />
+                        </div>
+              <div className='col' >
+                  <div className='siting-text2' >
+                        <h3 className='fw-bold'>Restaurant Loan Required Documents</h3>
+                        <ul className='fw-semibold lh-lg'>
+                          <li>KYC documents of the entity & promoters</li>
+                          <li>Bank statement for the last 6 months</li>
+                          <li>1 years ITR for 10 lacs</li>
+                      
+                        </ul>
+                  
+                  </div>
               </div>
            
        
+       
+        </div>
         </div>
 
 

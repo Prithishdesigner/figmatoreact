@@ -77,7 +77,7 @@ const loantype = [
             <p>{detail.money}</p>
             <p className="fw-semibold">{detail.title}</p>
           
-            <a href="#" onClick={()=>navigate(detail.routeLink)} className="btn btn-dark fw-semibold" style={{ borderRadius:'30px'}}>{detail.action}</a>
+            <a href="#" onClick={()=>navigate(detail.routeLink)} className="btn btn-dark fw-bold" style={{ borderRadius:'30px'}}>{detail.action}</a>
            
          
         </div>

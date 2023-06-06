@@ -86,7 +86,7 @@ const industry=[
                       <p className="card-text fw-bold text-center"  style={{color:'#FDB827'}} >{diamond.title1}</p>
                      
                   </div>   
-                  <p className='circle-dis'> {diamond.description1} </p>
+                  <p className='circle-dis fw-medium'> {diamond.description1} </p>
                   {/* style={{borderRadius:'100px',width: '10rem',height:'10rem',padding:'30px',backgroundColor:'#5920C5'}} */}
       
       </div>

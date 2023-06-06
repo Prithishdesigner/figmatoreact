@@ -6,10 +6,10 @@ const Centerpart = () => {
   return (
    <>
         <div id='font'  className=' container'>
-        <div class="row total">
+        <div className="row total">
                 <div className='col ' >
                   <div className='siting-text '>            
-                                <h3 className='fw-bold'>Business Loan Eligibility</h3>
+                        <h3 className='fw-bold'>Business Loan Eligibility</h3>
                         <ul className='fw-semibold'>
                             <li>Minimum operational history of 1 years</li>
                             <li>Promoter age 22 and above</li>
@@ -21,9 +21,9 @@ const Centerpart = () => {
                             <li>1 years ITR for 10 lacs</li>
                         </ul>
                      </div>
-
-                 </div>
-                    <div className='col '>
+                 </div> 
+                 
+                    <div className='col loan-elig '>
                     
                       <img src={Imageed} alt="" className='siting-img  ' />
                    
